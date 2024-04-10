@@ -178,8 +178,8 @@ footer img {
 
 .post_img h5 {
     color: #D7902B;
-    text-transform: uppercase;
     font-size: 16px;
+    margin-top: 5px;
 }
 
 .descricao {
@@ -204,4 +204,57 @@ button {
     display: flex;
     gap: 15px;
     margin-left: 20%;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    margin-top: 50px;
+    width: 40%;
+    background-color: #2C1312;
+}
+
+.form img {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    height: 100px;
+    width: 100px;
+}
+
+.form h1 {
+    margin-bottom: 30px;
+}
+
+input {
+    height: 45px;
+}
+
+input, textarea {
+    background-color: transparent;
+    border: 1px solid #D7902B;
+    border-radius: 15px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #D7902B;
+}
+
+label {
+    color: #D7902B;
+    margin-left: 10%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.einstein {
+    text-align: center;
+}
+
+.einstein button {
+    margin-bottom: 30px;
+    width: 80%;
 }

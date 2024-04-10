@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog </title>
     <link rel="stylesheet" href="style.css">
+    <title> Blog </title>
 </head>
 <body>
     <nav class="menu">
@@ -12,21 +12,31 @@
         <a href="posts.html"> POSTS </a>
     </nav>
 
-    <div class="container_posts">
-        <h1> MINHAS COMPETÊNCIAS</h1>
-        <div class="posts" id="post">
-            
-        </div>
+    
+        <form method="post" action="posts.html" id="form">
+            <div class="form">
+                <div class="einstein">
+                    <img src="img/einstein.png" alt="">
+                    <h1> ADICIONE UM POST </h1>
+                </div>
+                <div>
+                    <label for="titulo"> TÍTULO *</label> <br>
+                    <input type="text" id="titulo" required>
+                </div>
 
-        <div class="botoes">
-            <a href="form.html">
-            <button> CRIAR POST </button>
-            </a>
-            <button> ALTERAR VISIBILIDADE </button>
-        </div>
+                <div>
+                    <label for="descricao"> DESCRIÇÃO * </label> <br>
+                    <textarea id="descricao" rows="10" required></textarea>
+                </div>
+
+                <div class="einstein">
+                <button type="submit" value="Enviar"> ENVIAR </button>
+                </div>
+            
+            </div>
+        </form>
 
     </div>
-    
     <footer>
         <div class="contatos">
             <h4> CONTATOS </h4>
@@ -55,6 +65,8 @@
     </footer>
 
     <script src="data.js"></script>
-    <script src="teste.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
+
+
