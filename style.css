@@ -97,6 +97,12 @@ h1 {
     margin-top: 70px;
 }
 
+.include img {
+    margin-top: 15px;
+    height: 60px;
+    width: 60px;
+}
+
 .include p {
     margin-top: 20px;
     margin-left: 120px;
@@ -164,7 +170,7 @@ footer img {
 }
 
 .post_img {
-    width: 40%;
+    width: 30%;
     text-align: center;
     margin: 15px;
     padding-right: 10px;
@@ -183,10 +189,9 @@ footer img {
 }
 
 .descricao {
-    display: flex;
-    align-items: center;
-    padding: 5px;
+    padding: 10px;
     font-size: 18px;
+    width: 60%;
 }
 
 button {
