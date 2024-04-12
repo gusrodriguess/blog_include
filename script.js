@@ -2,7 +2,8 @@ const post = document.getElementById("post")
 const visivel = document.getElementById("mostrar")
 const ocultos = document.getElementById("ocultos")
 
-let storage = JSON.parse(localStorage.getItem("data") || JSON.stringify(postagens))
+localStorage.setItem("data", JSON.stringify(postagens));
+let storage = JSON.parse(localStorage.getItem("data"))
 
 let mostrarPosts = () => {
   return post.innerHTML = storage.map((item) => {
